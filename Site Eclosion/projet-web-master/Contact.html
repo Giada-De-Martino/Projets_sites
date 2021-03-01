@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="css/Commun2.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="shortcut icon" href="Images/Logo.png">
+    </head>
+    <body>
+      <div class= "global">
+       <header>
+        	<h1><a href="Produit.html"><img class="logo2" alt="Logo de notre marque" src="Images/Logo.png"></a>
+             
+            </h1>
+            <h2> Un œuf pour neuf surprises</h2>
+           <nav class="disp">
+            <div class="la">
+                <a href="./Produit.html">Accueil</a>
+            </div>
+            <div class="la">
+                <a href="./Contact.html">Contact</a>
+            </div>
+            <div class="la">
+                <a href="./Equipe.html">Équipe</a>
+            </div>
+            <div>
+                <a href="./Presse.html">Presse</a>
+            </div>
+            <div class="la">
+                <a href="./Rejoindre.html">Nous rejoindre</a>
+                <div class = "submenu">
+                    <div><a href="./Metier1.html">Responsable en communication</a></div>
+                    <div><a href="./Metier2.html">Directeur en Ressources Humaines</a></div>
+                    <div><a href="./Metier3.html">Responsable marketing</a></div>
+                    <div><a href="./Candidature.html">Candidature</a></div>
+                </div>
+            </div>
+            <div class="la">
+                <a href="./Faq.html">FAQ</a>
+            </div>
+        </nav>
+        <nav id="menuderoulant">
+            <img class="image" src="./Images/burger.png" alt="burger"> 
+                <!--- bloc a afficher --->
+                <div id="afficher">
+                    <div> <a href="./Produit.html"> Accueil </a> </div>
+                     <div> <a href="./Contact.html"> Contact </a> </div>
+                     <div> <a href="./Equipe.html"> Equipe </a> </div>
+                     <div> <a href="./Presse.html"> Presse </a> </div>
+                      <div> <a href="./Rejoindre.html"> Nous rejoindre </a> </div>
+                    <div > <a href="./Faq.html"> FAQ </a> </div>
+                 </div>                  
+            </nav>      
+    </header>
+        <main>
+        <form>
+            <h1>Contact</h1>
+            <p>Une question à poser ? N'hésitez pas à regarder si votre question ne figure pas déjà dans notre onglet <a href ="faq.html">FAQ</a> !</p>
+            <p>Les champs obligatoires sont suivis par <strong>*</strong>.</p> 
+            <section>
+                <h2>Informations de contact</h2>
+                <fieldset>
+                  <legend>Qualité</legend>
+                  <ul>
+                      <li>
+                        <label for="title_1">
+                          <input type="radio" id="title_1" name="title" value="M." >
+                          Monsieur
+                        </label>
+                      </li>
+                      <li>
+                        <label for="title_2">
+                          <input type="radio" id="title_2" name="title" value="Mme.">
+                          Madame
+                        </label>
+                      </li>
+                  </ul>
+                </fieldset>
+                <p>
+                  <label for="surname"><span>Nom*: </span></label>
+                  <input type="text" id="surname" name="usersurname" placeholder="Entrez votre nom" required="required">
+                </p>
+                <p>
+                  <label for="name"><span>Prénom*: </span></label>
+                  <input type="text" id="name" name="username" placeholder="Entrez votre prénom" required="required">
+                </p>
+                <p>
+                  <label for="mail"><span>E-mail*: </span></label>
+                  <input type="email" id="mail" name="usermail" placeholder="Entrez votre adresse mail" pattern="[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}" required="required">
+                </p>
+                <p>
+                  <label for="postal"><span>Code Postal :</span></label>
+                  <input type="text" id="postal" name="userpostal" placeholder="Entrez votre code postal" maxlength="5">
+                </p>
+                <p>
+                  <label for="country"><span>Pays :</span></label>
+                  <select id="country" name="usercountry">
+                    <option value="france">France</option>
+                    <option value="gb">Grande Bretagne</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="Question"><span>Vous avez entendu parlé de nous via ? :</span></label>
+                  <select id="moyen" name="usermoyen">
+                    <option value="Magazine">Magazine</option>
+                    <option value="Pub">Publicité Internet</option>
+                    <option value="Conseil">Conseil d'un proche</option>
+                    <option value="Autre">Autre</option>
+                  </select>
+                </p>
+                <p>
+                  <label for="date"><span>Date à laquelle vous souhaitez être recontacté*:</span></label>
+                  <input type="text" id="date" name="userdate" placeholder="Entrez votre date" required="required">
+                </p>
+            </section>
+            <section>
+                <h2>Commentaire*</h2>
+                <p>
+                  <textarea rows="4" cols="50" placeholder="Veuillez saisir votre commentaire..." required="required"></textarea>
+                </p>
+            </section>
+            <input type="button" value="Envoyer le commentaire" onclick="msg()">
+            <script>
+            function msg() {
+              alert("Commentaire envoyé !\nNous vous répondrons dans les plus brefs délais !");
+            }
+            </script>
+            </form>
+        </main>
+        <footer>
+				<div class="footer">
+					<p>Contacts de notre responsable de presse
+					<br> Jean-Jean Presset
+					<br> Adresse mail : jean-jean.presset@gmail.com</p>
+
+					<p><a href="Contact.html">Contact</a></p>
+					<p><a href="Rejoindre.html">Nous rejoindre</a></p>
+					<p><a href="Faq.html">FAQ</a></p>
+				</div>
+				<p> Site officiel Éclosion | Projet Web S1 IUT Informatique Montpellier<br>
+              	    SERRANO Léa - NGUYEN Thi Christine - DE MARTINO Giada Flora - BILLOTTA Eliès 
+          		</p>
+			</footer>
+      </div>
+    </body>
+</html>

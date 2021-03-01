@@ -1,0 +1,33 @@
+main > a{
+padding: 8px 15px;
+font-size: 25px;
+background: rgba(64,64,64,0.72);
+border-radius: 11px;
+border: 1px solid black;
+}
+
+main>a:hover {
+  background-color:rgba(51,102,51,0.7);
+  padding: 8px 15px;
+  font-size: 25px;
+}
+
+main>ul>li{
+	padding-bottom: 30px;
+}
+
+ul>li a:hover{
+  font-size: 35px;
+}
+
+.inside:hover{
+  font-size: 35px;
+}
+
+main>ul{
+padding-bottom: 50px;
+}
+
+ol>li{
+	padding-bottom: 40px;
+}

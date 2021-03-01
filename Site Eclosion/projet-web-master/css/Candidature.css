@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "EnchantedLand";
+  src: url("../Font/EnchantedLand.otf");
+}
+
+input, select, textarea, fieldset{
+  padding: 8px 15px;
+  font-size: 27px;
+  font-family: "EnchantedLand";
+  color: rgb(210,210,210);
+  background: rgba(64,64,64,0.72);
+  border-radius: 11px;
+  border: 1px solid black;
+}
+
+input:hover,textarea:hoverr{
+  background-color:rgba(51,102,51,0.7);
+}
+
+select{
+  padding: 8px 15px;
+  font-size: 25px;
+  background: rgba(64,64,64,0.72);
+  border-radius: 11px;
+  border: 1px solid black;
+  font-family: "EnchantedLand";
+}
+
+textarea{
+  height: 200px;
+  max-height: 200px;
+  max-width: 1150px;
+  min-width: 200px;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}

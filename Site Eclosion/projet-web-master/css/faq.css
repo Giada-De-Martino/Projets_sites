@@ -1,0 +1,19 @@
+
+/*CSS TABLEAU */
+table{
+  border:1px black solid;
+  margin: auto;
+  background-color: rgba(50,50,50,0.7) ;
+  position: static;
+  
+}
+
+td{
+  padding: 60px;
+  text-align : center;
+}
+
+td:hover{
+    background-color: rgba(51,102,51,0.7);
+}
+

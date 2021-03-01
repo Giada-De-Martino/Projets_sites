@@ -1,0 +1,157 @@
+.Dragon {
+	width:300px;
+	height:300px;
+	position:relative;
+}
+
+.Dragon:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.DragonPage {
+	width:300px;
+	height:300px;
+}
+
+.Lutin {
+	width:300px;
+	height:300px;
+	position:relative;
+	bottom:20px;
+	left:50px;
+}
+
+.Lutin:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.LutinPage {
+	width:250px;
+	height:300px;
+}
+
+.Pegase {
+	width:300px;
+	height:300px;
+	position:relative;
+	left:65px;
+}
+
+.Pegase:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.PegasePage {
+	width:300px;
+	height:400px;
+}
+
+.Fee {
+	width:300px;
+	height:300px;
+	position:relative;
+	bottom:10px;
+}
+
+.Fee:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.FeePage {
+	width:250px;
+	height:400px;
+}
+
+.Chimere {
+	width:300px;
+	height:200px;
+	position:relative;
+	bottom:40px;
+	left:20px;
+}
+
+.Chimere:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.ChimerePage {
+	width:300px;
+	height:300px;
+}
+
+.Treant {
+	width:250px;
+	height:250px;
+	position:relative;
+	bottom:20px;
+	left:60px;
+}
+
+.Treant:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.TreantPage {
+	width:300px;
+	height:300px;
+}
+
+.Phoenix {
+	width:300px;
+	height:300px;
+	position:relative;
+	bottom:10px;
+}
+
+.Phoenix:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.PhoenixPage {
+	width:300px;
+	height:400px;
+}
+
+.Griffon {
+	width:300px;
+	height:300px;
+	position:relative;
+	bottom:10px;
+	left:30px;
+}
+
+.Griffon:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.GriffonPage {
+	width:220px;
+	height:300px;
+}
+
+.Sirene {
+	width:300px;
+	height:300px;
+	position:relative;
+	top:20px;
+	left:60px;
+}
+
+.Sirene:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+.SirenePage {
+	width:250px;
+	height:400px;
+}
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Éclosion</title>
+		<link rel="stylesheet" type="text/css" href="css/Commun2.css">
+		<link rel="stylesheet" type="text/css" href="css/Candidature.css">
+		<link rel="shortcut icon" href="Images/Logo.png">
+	</head>
+	<body>
+		<div class="global">
+			<header>
+        	<h1><a href="Produit.html"><img class="logo2" alt="Logo de notre marque" src="Images/Logo.png"></a>
+             
+            </h1>
+            <h2> Un œuf pour neuf surprises</h2>
+           <nav class="disp">
+            <div class="la">
+                <a href="./Produit.html">Accueil</a>
+            </div>
+            <div class="la">
+                <a href="./Contact.html">Contact</a>
+            </div>
+            <div class="la">
+                <a href="./Equipe.html">Équipe</a>
+            </div>
+            <div>
+                <a href="./Presse.html">Presse</a>
+            </div>
+            <div class="la">
+                <a href="./Rejoindre.html">Nous rejoindre</a>
+                <div class = "submenu">
+                    <div><a href="./Metier1.html">Responsable en communication</a></div>
+                    <div><a href="./Metier2.html">Directeur en Ressources Humaines</a></div>
+                    <div><a href="./Metier3.html">Responsable marketing</a></div>
+                    <div><a href="./Candidature.html">Candidature</a></div>
+                </div>
+            </div>
+            <div class="la">
+                <a href="./Faq.html">FAQ</a>
+            </div>
+        </nav>
+        <nav id="menuderoulant">
+            <img class="image" src="./Images/burger.png" alt="burger"> 
+                <!--- bloc a afficher --->
+                <div id="afficher">
+                    <div> <a href="./Produit.html"> Accueil </a> </div>
+                     <div> <a href="./Contact.html"> Contact </a> </div>
+                     <div> <a href="./Equipe.html"> Equipe </a> </div>
+                     <div> <a href="./Presse.html"> Presse </a> </div>
+                      <div> <a href="./Rejoindre.html"> Nous rejoindre </a> </div>
+                    <div > <a href="./Faq.html"> FAQ </a> </div>
+                 </div>                  
+            </nav>      
+    </header>
+			<main>
+				<h2>
+					Rejoignez-nous !  	
+				</h2>
+				<p>Bonjour ! Vous souhaitez nous rejoindre en tant que Directeur en Ressources Humaines ? Vous êtes sur la bonne page !</p>
+
+				<h3>Profil recherché</h3>
+
+				<p>Minimum niveau bac+5 :</p>
+					<ul>
+						<li>Diplôme d'école de commerce</li>
+						<li>Titre homologué de MRH - manager des ressources humaines </li>
+						<li>Master gestion des RH</li>
+					</ul>
+				<p>Avoir de l'expérience est très apprécié</p>
+					
+				<h3>Les compétences recherchée</h3>
+					<p>Nous recherchons une personne compétente pour le poste de Directeur en Ressources Humaines, un poste important pour le fonctionnement de l'entreprise. Nous recherchons quelqu'un de passionné et à l'écoute de tous, si vous pensez correspondre au profil que nous recherchons, nous vous prions de déposer votre candidature ci-dessous. </p>
+
+					<ul>
+						<li>Savoir communiquer à l'oral et à l'écrit</li>
+					</ul>
+					<ul>
+						<li>Maîtriser au moins le français et l'anglais</li>
+					</ul>
+					<ul>
+						<li>Adaptabilité et flexibilité</li>
+					</ul>
+					<ul>
+						<li>Avoir un esprit analyste et critique</li>
+					</ul>
+					<ul>
+						<li>Sens relationnel</li>
+					</ul>
+					<ul>
+						<li>Avoir une bonne culture générale</li>
+					</ul>
+					<ul>
+						<li>Être à l'écoute des autres</li>
+					</ul>
+
+				<form action="Candidature.php" method="post">
+					<fieldset>
+						<label for="surname">Nom*</label>
+						<input id="surname" type="text" name="urname" placeholder="Entrez votre nom" required="required"><br>
+				
+						<label for="name">Prénom*</label>
+						<input id="name" type="text" name="name" placeholder="Entrez votre prénom" required="required"><br>
+					
+						<label for="email">Email*</label>
+						<input id="email" type="email" name="emailaddress" placeholder="Entrez votre email" required="required"><br>
+						
+						<label for="présentation">Quelques mots pour vous présenter</label><br>
+						
+						<textarea id="présentation" name="présentation" rows="10" cols="50" placeholder="Entrez votre message" required="required"></textarea><br>
+
+						<label for="file">Les documents</label>
+						<input id="file" type="file" name="myFile">
+					</fieldset>
+
+						<input type="submit" value="Envoyer">
+				</form>
+			</main>
+			<footer>
+				<div class="footer">
+					<p>Contacts de notre responsable de presse
+					<br> Jean-Jean Presset
+					<br> Adresse mail : jean-jean.presset@gmail.com</p>
+
+					<p><a href="Contact.html">Contact</a></p>
+					<p><a href="Rejoindre.html">Nous rejoindre</a></p>
+					<p><a href="Faq.html">FAQ</a></p>
+				</div>
+				<p> Site officiel Éclosion | Projet Web S1 IUT Informatique Montpellier<br>
+              	    SERRANO Léa - NGUYEN Thi Christine - DE MARTINO Giada Flora - BILLOTTA Eliès 
+          		</p>
+			</footer>
+		</div>
+	</body>
+</html>

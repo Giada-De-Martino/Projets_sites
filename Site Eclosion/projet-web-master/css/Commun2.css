@@ -1,0 +1,190 @@
+header {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width:100%;
+  background: rgba(50,50,50,1);
+}
+
+header > h4 {
+  margin-bottom:100px;
+}
+
+.image{
+  width: 50px;
+}
+
+.global{
+  margin: auto;
+  max-width: 1150px;
+  min-width: 200px;
+}
+
+main {
+  padding: 50px
+}
+
+.la{
+  display:flex;
+  justify-content:center;  
+}
+nav > div {
+  background-color: rgba(50,50,50,0.7);
+  /*border-top :1px green solid;
+  border-bottom: 1px green solid;*/
+  border-right:1px green solid;
+  display:inline-block;
+  padding:2%;
+  position:relative;
+  left:100px;
+}
+
+nav >div:hover {
+  background-color: rgba(51,102,51,0.7);
+}
+
+nav > div:hover .submenu {
+  display:block;
+  width:200px;
+}
+nav > div:hover .submenu > div:hover {
+  background-color:rgba(51,102,51,0.7);
+}
+
+.submenu {
+  background-color:rgba(64,64,64,0.72);;
+  position: absolute;
+  top:80px;
+  display:none;
+  padding:30px;
+}
+
+#menuderoulant{
+  display: none;
+}
+
+
+/*BODY*/
+
+@font-face {
+  font-family: "EnchantedLand";
+  src: url("../Font/EnchantedLand.otf");
+}
+
+body{
+  background-image: url("../Images/Background2.jpg");
+  background-attachment:fixed;
+  margin:0px;
+  font-family: "EnchantedLand";
+  font-size:27px;
+  color: rgb(210,210,210);
+}
+
+body > div{
+  background-color: rgba(64,64,64,0.72);
+  border:1px black solid;
+}
+
+p{
+  margin-bottom:10px;
+}
+
+/*AUTRE*/
+a, a:visited, a:hover {
+    color: rgb(210,210,210);
+    text-decoration:none;
+    font-size: 30px;
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(50,50,50,0.7);
+  border: 1px black solid;
+}
+
+.footer{
+  columns: 2;
+}
+
+.logo{
+  display: flex;
+  flex-direction:column;
+  height:5%;
+}
+
+.logo2{
+  height:110px;
+}
+
+nav{
+  height: 100%;
+  display:flex;
+  flex-direction:row;
+}
+
+
+@media screen and (max-width: 1000px){
+  .disp{ display:none; }
+    #menuderoulant #afficher{
+        display:none;
+    }
+
+    #menuderoulant {
+        width: 100%;
+       text-align: right;
+        padding: 35px 25px;
+        display:block;
+        float:left;
+        margin: auto;
+        height:60px;
+        background-color:rgba(50,50,50,1);
+        flex-grow:1;
+    }
+    #menuderoulant div > a{
+      margin:auto;
+      padding-bottom:25px;
+      position:relative;
+      background-color: rgba(50,50,50,1);
+    }
+
+
+    #afficher {
+        display:none;
+        line-height:10%;
+        position:absolute;
+        top:150px;
+        right:0px;
+    }
+
+    #block:checked + #afficher {
+        display:block;
+    }
+    
+    #menuderoulant:hover #afficher{
+      display:block;
+      position: absolute;
+      z-index: 100;
+    }
+    #block {
+        display:none;
+    }
+
+    #menuderoulant a{
+    display: block;
+    text-align: center;
+    }
+    nav >div:hover {
+  background-color: rgba(50,50,50,1);
+}
+
+  }
+
+  @media(min-width: 1001px){
+.disp{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  flex-shrink: 0;
+  align-items:center;
+}
+}  
